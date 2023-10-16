@@ -66,6 +66,15 @@ npm install
 const myGuild = client.guilds.cache.get('YOUR SERVER ID');
 const webhookURL = 'YOUR webhookURL';
 ```
+- Отредактируйте файл **create-backup.js** для настройки параметров бекапов. Важно указать следующие параметры:
+
+- Замените **'YOUR_WEBHOOK_ID'** на идентификатор вашего вебхука Discord, и **'YOUR_WEBHOOK_TOKEN'** на токен вашего вебхука Discord.
+
+```js
+const webhookID = 'YOUR_WEBHOOK_ID'; // Замените YOUR_WEBHOOK_ID на идентификатор вебхука
+const webhookToken = 'YOUR_WEBHOOK_TOKEN'; // Замените YOUR_WEBHOOK_TOKEN на токен вебхука
+const webHookClient = new Discord.WebhookClient(webhookID, webhookToken);
+```
 
 - Запустите бота: Запустите бота на вашем сервере.
 
