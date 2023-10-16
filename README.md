@@ -1,4 +1,4 @@
-# Discord Бот для проекта "The Last of Us" на FiveM
+# Discord backup Бот для проекта "The Last of Us" на FiveM
 
 ## Описание
 
